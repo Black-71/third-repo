@@ -3,7 +3,7 @@ name: Extract ZIP File
 on:
   push:
     paths:
-      - "*.zip"  # Runs when a ZIP file is pushed
+      - "*.zip"  # Runs only when a ZIP file is pushed
 
 jobs:
   extract:
